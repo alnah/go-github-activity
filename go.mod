@@ -2,7 +2,10 @@ module github.com/alnah/go-github-activity
 
 go 1.23.6
 
-require github.com/spf13/viper v1.19.0
+require (
+	github.com/cenkalti/backoff/v5 v5.0.2
+	github.com/spf13/viper v1.19.0
+)
 
 require (
 	github.com/fsnotify/fsnotify v1.8.0 // indirect
